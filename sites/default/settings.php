@@ -705,7 +705,7 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  */
  $settings['trusted_host_patterns'] = array(
     '^drupal8\.local\.com$',
-    '^.+\.drupal8\.local\.com$'
+    '^.+\.drupal8\.local\.com$',
   );
 
 /**
