@@ -15,7 +15,7 @@
  * the aliases in the array $sites will override the default directory rules
  * below. See sites/example.sites.php for more information about aliases.
  *
- * The configuration directory will be discovered by stripping the website's
+ * The configuration directory will be discovered by stripping the website's aaaa
  * hostname from left to right and pathname from right to left. The first
  * configuration file found will be used and any others will be ignored. If no
  * other configuration file is found then the default configuration file at

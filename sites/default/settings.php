@@ -495,8 +495,8 @@ if ($settings['hash_salt']) {
  * security by serving user-uploaded files from a different domain or subdomain
  * pointing to the same server. Do not include a trailing slash.
  */
-# $settings['file_public_base_url'] = 'http://downloads.example.com/files';
-
+# $settings['file_public_base_url'] = 'http://downloads.example.com/files';   ass
+$base_url = 'http://localhost/drupal8.4/';
 /**
  * Public file path:
  *
@@ -703,6 +703,10 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
  * will allow the site to run off of all variants of example.com and
  * example.org, with all subdomains included.
  */
+ $settings['trusted_host_patterns'] = array(
+    '^drupal8\.local\.com$',
+    '^.+\.drupal8\.local\.com$'
+  );
 
 /**
  * Load local development override configuration, if available.
